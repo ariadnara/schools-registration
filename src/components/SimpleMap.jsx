@@ -87,7 +87,7 @@ export function SimpleMap({ locationSearch, locationSelected }) {
 
   return (
     <GoogleMapReact ref={googleMapReactRef}
-      bootstrapURLKeys={{key: APIKEYMAPS}}//'AIzaSyCbkV9FFXMySB7oOO1CfqoD-503Xw_YlhM'
+      bootstrapURLKeys={{key: APIKEYMAPS}}
       defaultCenter={props.center}
       defaultZoom={props.zoom}
       yesIWantToUseGoogleMapApiInternals
